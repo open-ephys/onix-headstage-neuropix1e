@@ -7,6 +7,11 @@
 
 ## Stackup
 - See "headstage-neuropix2e_stackup.png"
+- Total thickness ~0.6mm
+
+## Colors
+- Solder mask: Green
+- Silkscreen: White
 
 ## Trace space
 - Trace: 0.0762 mm

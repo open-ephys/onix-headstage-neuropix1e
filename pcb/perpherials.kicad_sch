@@ -1327,7 +1327,7 @@
     (property "Reference" "J5" (at 214.63 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "050700622" (at 214.63 116.84 0)
+    (property "Value" "5050700622" (at 214.63 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "jonnew:MOLEX_5050700622" (at 214.63 132.08 0)

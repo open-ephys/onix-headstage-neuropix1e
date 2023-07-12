@@ -344,14 +344,13 @@
     (property "Sheetfile" "perpherials.kicad_sch")
     (property "Sheetname" "Perpherials")
     (property "Tolerance" "")
-    (property "exclude_from_bom" "")
     (path "/26a1cb19-2d7b-404e-a4cf-b83b472aa8fd/2f756bda-8741-4d97-a9b0-a351cf0e68a2")
-    (attr smd exclude_from_bom)
+    (attr smd)
     (fp_text reference "J5" (at 1.39 1.21 unlocked) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp b92f9a14-f4e6-4bad-b29e-3166b24a9987)
     )
-    (fp_text value "050700622" (at 0 2.3 unlocked) (layer "F.Fab") hide
+    (fp_text value "5050700622" (at 0 2.3 unlocked) (layer "F.Fab") hide
         (effects (font (size 0.25 0.25) (thickness 0.04)))
       (tstamp 2eddd676-306c-4f1c-a173-bfc142298cf5)
     )
@@ -881,7 +880,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8cc59a78-3244-4b53-a931-b37eba5eb6b6)
     )
-    (fp_text value "TPS3839DQN" (at 0 1.5 90) (layer "F.Fab") hide
+    (fp_text value "TPS3839G18DQNT" (at 0 1.5 90) (layer "F.Fab") hide
         (effects (font (size 0.6 0.6) (thickness 0.1)))
       (tstamp e09874d0-6dee-488d-9a3d-719ef9b3ef01)
     )
@@ -4362,10 +4361,11 @@
     (property "Sheetname" "Perpherials")
     (property "Tolerance" "")
     (property "dnp" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/26a1cb19-2d7b-404e-a4cf-b83b472aa8fd/ed50dc12-3100-4896-a46b-fb20a2616765")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "J3" (at 1.1 16.9) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ced51bbd-3462-42ce-ac45-ce73290b59eb)

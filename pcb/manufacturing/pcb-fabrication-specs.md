@@ -18,8 +18,8 @@
 - Space: 0.0762 mm
 
 ## Vias
-- Minimum drill: 0.1mm
-- Mimimum via diameter: 0.2mm
+- Minimum drill: 0.15mm
+- Mimimum via diameter: 0.25mm
 - Blind/buried: No
 - VIP: Yes
 - Vias are epoxy-filled and and plated over

@@ -194,11 +194,11 @@
         )
       )
     )
-    (symbol "jonnew:+1.8VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+1.8VA" (at 0 3.556 0)
+      (property "Value" "+1V8" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -207,13 +207,13 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+1.8VA\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+1V8\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+1.8VA_0_1"
+      (symbol "+1V8_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -239,9 +239,9 @@
           (fill (type none))
         )
       )
-      (symbol "+1.8VA_1_1"
+      (symbol "+1V8_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+1.8VA" (effects (font (size 1.27 1.27))))
+          (name "+1V8" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -548,10 +548,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c59aea22-8159-417e-a984-35a463cb60f0)
   )
-  (text "NB: 1.8VA is \nlast 1.8V rail\nto come up." (at 72.39 49.53 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e844e0c2-82ae-4bf1-a757-a9bb9bbaadc2)
-  )
   (text "3. 0x70 Neuropixel\n" (at 153.67 102.87 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f41c4015-5285-4efb-b188-2b5388d3a484)
@@ -565,13 +561,13 @@
     (uuid fd997a99-fe71-4584-9fb5-a696873cd66e)
   )
 
-  (symbol (lib_id "jonnew:+1.8VA") (at 73.66 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 17840c60-6b4f-405f-b062-e6983bb23e61)
-    (property "Reference" "#PWR02" (at 73.66 62.23 0)
+  (symbol (lib_id "power:+1V8") (at 73.66 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4e26c4ca-7448-41e3-911b-683996052b17)
+    (property "Reference" "#PWR012" (at 73.66 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+1.8VA" (at 73.66 54.61 0)
+    (property "Value" "+1V8" (at 73.66 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 73.66 58.42 0)
@@ -580,17 +576,14 @@
     (property "Datasheet" "" (at 73.66 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 107c4036-82a1-4de3-9fb0-f361dc87bf22))
+    (pin "1" (uuid d35dd638-9cb6-4746-a91f-44d6d31d5431))
     (instances
       (project "headstage-neuropix1e"
+        (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/b7aa19e4-f36e-4b9e-8aee-8753f961a546"
+          (reference "#PWR012") (unit 1)
+        )
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6"
           (reference "#PWR02") (unit 1)
-        )
-        (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/d51904df-0ed4-4470-977b-1ce2ad2cc86e"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/b7aa19e4-f36e-4b9e-8aee-8753f961a546"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -807,13 +800,13 @@
     )
   )
 
-  (symbol (lib_id "jonnew:+1.8VA") (at 82.55 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ce4c5616-c7bf-42f8-97a6-8b191d38fcbf)
-    (property "Reference" "#PWR03" (at 82.55 62.23 0)
+  (symbol (lib_id "power:+1V8") (at 82.55 58.42 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c0cf5a4d-2c89-408e-9e05-fa85d7e3d294)
+    (property "Reference" "#PWR012" (at 82.55 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+1.8VA" (at 82.55 54.61 0)
+    (property "Value" "+1V8" (at 82.55 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 82.55 58.42 0)
@@ -822,17 +815,14 @@
     (property "Datasheet" "" (at 82.55 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5fdedf54-1a0f-4290-9c6a-5ddb8d39cdb2))
+    (pin "1" (uuid 45be24f6-a355-4a6e-93a2-e5ceb2f05238))
     (instances
       (project "headstage-neuropix1e"
+        (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/b7aa19e4-f36e-4b9e-8aee-8753f961a546"
+          (reference "#PWR012") (unit 1)
+        )
         (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6"
           (reference "#PWR03") (unit 1)
-        )
-        (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/d51904df-0ed4-4470-977b-1ce2ad2cc86e"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/b7aa19e4-f36e-4b9e-8aee-8753f961a546"
-          (reference "#PWR?") (unit 1)
         )
       )
     )

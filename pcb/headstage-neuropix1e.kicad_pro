@@ -57,13 +57,24 @@
       ],
       "drc_exclusions": [
         "courtyards_overlap|148753144|90240001|c85daf85-42a8-4e2a-9e8a-4905abecc427|fc219fcb-68a3-4042-9129-1e74c4ac1986",
-        "courtyards_overlap|148753144|90240001|fc219fcb-68a3-4042-9129-1e74c4ac1986|c85daf85-42a8-4e2a-9e8a-4905abecc427",
         "lib_footprint_issues|144665911|113431246|9ecbc746-2dfd-4bb4-967d-ae8298ea5223|00000000-0000-0000-0000-000000000000",
         "lib_footprint_issues|144705911|113331246|9ecbc746-2dfd-4bb4-967d-ae8298ea5223|00000000-0000-0000-0000-000000000000",
         "lib_footprint_issues|146777143|87560000|97dc9e0b-8aec-43d5-a330-b9ef372f445b|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|136600000|88550000|c4785bc2-bbd3-4129-a08b-45e3fc6a0763|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|142600000|95081250|c1bbfad8-e17c-4235-a7af-023645b14717|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|148600000|88550000|fc219fcb-68a3-4042-9129-1e74c4ac1986|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|148600000|88550000|fc219fcb-68a3-4042-9129-1e74c4ac1986|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|134600000|93850000|1c603607-95be-4915-a1d8-9955f00e51bc|65e544f9-c9d8-4ca3-9735-8b11333a17ce",
+        "silk_edge_clearance|134600000|93850000|1c603607-95be-4915-a1d8-9955f00e51bc|a8e29f31-3168-4752-87b6-5db74410e059",
+        "silk_edge_clearance|134600000|98650000|1c603607-95be-4915-a1d8-9955f00e51bc|04dff6c8-68fb-44df-977c-0efa5b2ea750",
+        "silk_edge_clearance|134600000|98650000|1c603607-95be-4915-a1d8-9955f00e51bc|3fa16351-f00d-4bd3-921f-9b5f85af2017",
+        "silk_edge_clearance|134600000|98650000|1c603607-95be-4915-a1d8-9955f00e51bc|79ee5de1-0069-432c-8b51-49b19386dfbe",
+        "silk_edge_clearance|134600000|98650000|1c603607-95be-4915-a1d8-9955f00e51bc|ed3003a8-eda0-4dd4-b4d8-6aad6b043e07",
+        "silk_edge_clearance|150600000|93850000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|3cdf307e-d76c-48ab-a577-bf17a69de8e2",
+        "silk_edge_clearance|150600000|93850000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|53d845f3-9d70-42c1-a51a-fd62f554fd9f",
+        "silk_edge_clearance|150600000|93850000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|dd4f1e2f-3891-4195-80d4-c73ffed9a21a",
+        "silk_edge_clearance|150600000|93850000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|f7271276-b9b4-439e-80c1-3db0c31f3db8",
+        "silk_edge_clearance|150600000|98650000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|c7e74cbb-41a9-4aa3-af0c-848cbce5239e",
+        "silk_edge_clearance|150600000|98650000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|fa71a2d1-4400-4d8d-a410-ce45131d8b98"
       ],
       "meta": {
         "version": 2
@@ -122,7 +133,7 @@
         "max_error": 0.005,
         "min_clearance": 0.07619999999999999,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.12,
+        "min_copper_edge_clearance": 0.15,
         "min_hole_clearance": 0.07619999999999999,
         "min_hole_to_hole": 0.09999999999999999,
         "min_microvia_diameter": 0.15,
@@ -430,7 +441,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "jonnew",
+      "open-ephys"
+    ]
   },
   "meta": {
     "filename": "headstage-neuropix1e.kicad_pro",
@@ -513,8 +527,8 @@
     "net_colors": null,
     "netclass_assignments": {
       "/Serializer/Dout-": "50-Ohm",
-      "Net-(U4-DOUTN)": "50-Ohm",
-      "Net-(U4-DOUTP)": "50-Ohm"
+      "Net-(U5-DOUTN)": "50-Ohm",
+      "Net-(U5-DOUTP)": "50-Ohm"
     },
     "netclass_patterns": [
       {

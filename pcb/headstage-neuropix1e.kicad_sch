@@ -6,7 +6,7 @@
 
   (title_block
     (title "ONIX Neuropixels 1.0 Economical Headstage")
-    (rev "A")
+    (rev "B")
     (company "Open Ephys, Inc")
     (comment 1 "Jonathan P. Newman")
   )
@@ -520,7 +520,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 196b5419-b966-4c4e-9123-dbc2b5d663a5)
   )
-  (text "NB: 2.7-5.5 VDC\n(Lower is better)" (at 196.85 44.45 0)
+  (text "NB: 3.0-5.5 VDC\n(Lower is better)" (at 196.85 44.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 32c98b8b-dc8a-402e-80e8-b08db7f6cbdd)
   )

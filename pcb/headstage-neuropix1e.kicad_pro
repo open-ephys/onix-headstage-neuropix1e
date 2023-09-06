@@ -232,7 +232,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1206500|1117600|27dce61f-85a9-402c-a941-f4b2893b9ce7|c3892b8d-eb77-46df-a345-435c7747ee09|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/26a1cb19-2d7b-404e-a4cf-b83b472aa8fd",
+      "pin_to_pin|1866900|596900|a3f35104-bd72-4af4-a780-de9a4fb83383|c3892b8d-eb77-46df-a345-435c7747ee09|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/26a1cb19-2d7b-404e-a4cf-b83b472aa8fd|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/26a1cb19-2d7b-404e-a4cf-b83b472aa8fd|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/26a1cb19-2d7b-404e-a4cf-b83b472aa8fd"
+    ],
     "meta": {
       "version": 0
     },
@@ -443,7 +446,10 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "oe_common",
+      "open-ephys"
+    ],
     "pinned_symbol_libs": [
       "jonnew",
       "open-ephys"

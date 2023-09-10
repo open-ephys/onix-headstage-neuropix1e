@@ -288,8 +288,8 @@
     )
   )
 
-  (bus_alias "PSB" (members "D[0..6]" "SYNC" "DCLK" "PCLK"))
   (bus_alias "" (members ))
+  (bus_alias "PSB" (members "D[0..6]" "SYNC" "DCLK" "PCLK"))
   (junction (at 182.88 36.83) (diameter 0) (color 0 0 0 0)
     (uuid 04ea7be7-2d65-4374-8cef-abd8d32dc744)
   )

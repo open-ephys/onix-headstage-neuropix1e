@@ -56,31 +56,15 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|148753144|90240001|c85daf85-42a8-4e2a-9e8a-4905abecc427|fc219fcb-68a3-4042-9129-1e74c4ac1986",
         "lib_footprint_issues|144665911|113431246|9ecbc746-2dfd-4bb4-967d-ae8298ea5223|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|144705911|113331246|9ecbc746-2dfd-4bb4-967d-ae8298ea5223|00000000-0000-0000-0000-000000000000",
         "lib_footprint_issues|146777143|87560000|97dc9e0b-8aec-43d5-a330-b9ef372f445b|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|136600000|88550000|c4785bc2-bbd3-4129-a08b-45e3fc6a0763|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|142600000|95081250|c1bbfad8-e17c-4235-a7af-023645b14717|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|148600000|88550000|fc219fcb-68a3-4042-9129-1e74c4ac1986|00000000-0000-0000-0000-000000000000",
         "silk_edge_clearance|134600000|93850000|1c603607-95be-4915-a1d8-9955f00e51bc|26226b46-3789-47b4-a33e-25fd7fdd31cf",
-        "silk_edge_clearance|134600000|93850000|1c603607-95be-4915-a1d8-9955f00e51bc|65e544f9-c9d8-4ca3-9735-8b11333a17ce",
-        "silk_edge_clearance|134600000|93850000|1c603607-95be-4915-a1d8-9955f00e51bc|a8e29f31-3168-4752-87b6-5db74410e059",
-        "silk_edge_clearance|134600000|98650000|1c603607-95be-4915-a1d8-9955f00e51bc|04dff6c8-68fb-44df-977c-0efa5b2ea750",
-        "silk_edge_clearance|134600000|98650000|1c603607-95be-4915-a1d8-9955f00e51bc|3fa16351-f00d-4bd3-921f-9b5f85af2017",
         "silk_edge_clearance|134600000|98650000|1c603607-95be-4915-a1d8-9955f00e51bc|76f34b79-a5ca-4bd7-a14f-9b3cf75d6df3",
-        "silk_edge_clearance|134600000|98650000|1c603607-95be-4915-a1d8-9955f00e51bc|79ee5de1-0069-432c-8b51-49b19386dfbe",
         "silk_edge_clearance|134600000|98650000|1c603607-95be-4915-a1d8-9955f00e51bc|a5c22f3c-3d8f-4583-b3b0-ee7d60d83556",
-        "silk_edge_clearance|134600000|98650000|1c603607-95be-4915-a1d8-9955f00e51bc|ed3003a8-eda0-4dd4-b4d8-6aad6b043e07",
         "silk_edge_clearance|150600000|93850000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|32ddeebd-6f98-4ed2-83c3-36ee0a7dab65",
-        "silk_edge_clearance|150600000|93850000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|3cdf307e-d76c-48ab-a577-bf17a69de8e2",
         "silk_edge_clearance|150600000|93850000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|41840e83-e4bc-441c-85d1-8d326c3adc6f",
-        "silk_edge_clearance|150600000|93850000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|53d845f3-9d70-42c1-a51a-fd62f554fd9f",
-        "silk_edge_clearance|150600000|93850000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|dd4f1e2f-3891-4195-80d4-c73ffed9a21a",
-        "silk_edge_clearance|150600000|93850000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|f7271276-b9b4-439e-80c1-3db0c31f3db8",
         "silk_edge_clearance|150600000|98650000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|7d64beca-8c46-448d-8069-cacb56431088",
-        "silk_edge_clearance|150600000|98650000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|c7e74cbb-41a9-4aa3-af0c-848cbce5239e",
-        "silk_edge_clearance|150600000|98650000|791e6e94-98ef-41b9-abf9-aad08ce0c5b2|fa71a2d1-4400-4d8d-a410-ce45131d8b98"
+        "starved_thermal|136820000|91000000|18424e33-801a-4fcf-b3a3-3d1758cdbbfd|873e740d-da5a-4c58-bc39-566b1d8cb80b|B.Cu"
       ],
       "meta": {
         "version": 2
@@ -232,10 +216,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1206500|1117600|27dce61f-85a9-402c-a941-f4b2893b9ce7|c3892b8d-eb77-46df-a345-435c7747ee09|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/9dea7771-d871-4129-9ad1-7b3654fe6f0e|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/26a1cb19-2d7b-404e-a4cf-b83b472aa8fd",
-      "pin_to_pin|1866900|596900|a3f35104-bd72-4af4-a780-de9a4fb83383|c3892b8d-eb77-46df-a345-435c7747ee09|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/26a1cb19-2d7b-404e-a4cf-b83b472aa8fd|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/26a1cb19-2d7b-404e-a4cf-b83b472aa8fd|/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/26a1cb19-2d7b-404e-a4cf-b83b472aa8fd"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -535,6 +516,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/DC Tap & Regulation/RF+DC": "50-Ohm",
       "/Serializer/Dout-": "50-Ohm",
       "Net-(U5-DOUTN)": "50-Ohm",
       "Net-(U5-DOUTP)": "50-Ohm"

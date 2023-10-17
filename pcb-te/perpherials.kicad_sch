@@ -1725,7 +1725,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030") (at 146.05 59.69 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid a75f406a-4c82-40bb-8981-54e2e0425da2)
     (property "Reference" "J?" (at 139.7 59.055 0)
       (effects (font (size 1.27 1.27)) (justify right))

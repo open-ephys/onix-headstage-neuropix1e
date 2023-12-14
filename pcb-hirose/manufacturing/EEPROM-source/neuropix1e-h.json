@@ -1,0 +1,189 @@
+{
+    "type" : "Open Ephys FPGA-Less Headstage",
+    "file_version" : 1,
+    "header_version" : 1,
+    "internal" : {},
+    "device_info" : 
+    {
+        "version" : 1,
+        "hardware_id" : 10,
+        "hardware_revision" : 
+        {
+            "major" : 1,
+            "minor" : 0
+        },
+        "name" : "Open Ephys Headstage-Neuropixels1.0e Hirose connector"
+    },
+    "link_info" :
+    {
+        "version" : 1,
+        "serializer" :  "DS90UB933",
+        "link_clock" : 93.6e6,
+        "serializer_mode" :
+        {
+            "mode" : "DVP",
+            "rate" : "RAW12HF"
+        }
+    },
+    "power_info" :
+    {
+        "version" : 1,
+        "volts" : 
+        {
+            "min" : 2.7,
+            "max" : 4.5
+        },
+        "mAmps" :
+        {
+            "min" : 89,
+            "max" : 112
+        }
+    },
+    "encoding_info" : 
+    {
+        "version" : 1,
+        "passthrough_id" : 24,
+        "passthrough_version" : 2,
+        "passthrough_conf" : 
+        {
+            "read_size" : 5,
+            "aggregate_frames" : 13,
+            "trigger" : 
+            {
+                "mode" : "continuous"
+            },
+            "trigger_offset" : 0,
+            "pixel_gate" :
+            {
+                "enabled" : true,
+                "line" : "hsync",
+                "polarity": "positive"
+            },
+            "clock_divider" : 
+            {
+                "skip_cycles" : 4,
+                "skip_offset" : 1,
+                "skip_counter_reset" : 
+                {
+                    "enabled" : true,
+                    "line" : "hsync",
+                    "polarity": "positive"
+                },
+                "gate_increase" : false
+            },
+            "sync_bits" : false,
+            "mark" : 
+            {
+                "enabled" : false
+            },
+            "magic_mask" : "h03FF",
+            "magic_options" :
+            {
+                "look_for_inverted" : true,
+                "use_for_aggregation" : true
+            },
+            "magic_word" : 816,
+            "magic_wait": 0,
+            "data_mode" :
+            {
+                "mode" : "serial",
+                "include_index_in_parallel" : false,
+                "serial_streams" : 1,
+                "serial_bits_per_word" : 10,
+                "serial_lines_per_stream" : 8,
+                "serial_LSB_first" : false
+            },
+            "datalines" :
+            [
+                "h3245106B",
+                "hFFFFFFFF"
+            ]
+        }
+    },
+    "records" : 
+    [
+        {
+            "type" : 0,
+            "version" : 1,
+            "payload" :
+            {
+                "registers" : 
+                [
+                    ["h0D", "b00010001"],
+                    ["h0E", "b10010001"]
+                ]
+            }
+        },
+        {
+            "type" : 1,
+            "version" : 1,
+            "payload" :
+            {
+                "address" : "h70",
+                "registers" :
+                [
+                ],
+                "comments" : "Neuropixels device is too complicated, so we set the register, to have account of the address, but proper initialization must be done by software"
+            }
+        },
+        {
+            "type" : 1,
+            "version": 1,
+            "payload" :
+            {
+                "address" : "h28",
+                "registers":
+                [
+                    ["h3E", "h00"],
+                    ["h07", "h00"],
+                    ["h3F", "h00"],
+                    ["h41", "b00000110"],
+                    ["h42", "b00000010"],
+                    ["h3D", "h08"]
+                ]
+            }
+        },
+        {
+            "type" : 3,
+            "version" : 1,
+            "payload" :
+            {
+                "address" : "h28",
+                "read_length" : 1,
+                "registers" : 
+                [
+                    "h1A",
+                    "h1B",
+                    "h1C",
+                    "h1D",
+                    "h1E",
+                    "h1F",
+                    "h20",
+                    "h21",
+                    "h22",
+                    "h23",
+                    "h24",
+                    "h25",
+                    "h26",
+                    "h27",
+                    "h28",
+                    "h29",
+                    "h2A",
+                    "h2B",
+                    "h2C",
+                    "h2D",
+                    "h2E",
+                    "h2F", 
+                    "h30",
+                    "h31",
+                    "h32",
+                    "h33",
+                    "h34",
+                    "h35"
+                ]
+
+            }
+        }
+    ]
+
+}

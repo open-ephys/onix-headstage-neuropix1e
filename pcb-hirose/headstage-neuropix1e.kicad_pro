@@ -516,7 +516,6 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/DC Tap & Regulation/RF+DC": "50-Ohm",
       "/Serializer/Dout-": "50-Ohm",
       "Net-(U5-DOUTN)": "50-Ohm",
       "Net-(U5-DOUTP)": "50-Ohm"

@@ -1,4 +1,4 @@
-# ONIX Neuropixels 1.0 Economical Headstage
+# ONIX Neuropixels 1.0 Headstage
 
 Serialized, multifunction ONIX headstage for Neuropixels 1.0 probes
 

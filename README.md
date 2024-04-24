@@ -7,6 +7,5 @@ Serialized, multifunction ONIX headstage for Neuropixels 1.0 probes
 - Integrated absolute orientation tracking
 - Single, 0.3 mm diameter micro-coaxial tether
 - Torque-free commutation when used with an [ONIX Commutator](https://github.com/open-ephys/onix-commutator)
-- Tiny (12.5 x 16 mm)
+- Tiny: 12.5 x 16 mm, 0.68 grams
 - 2x M1.4 mounting holes
-- <TODO> grams

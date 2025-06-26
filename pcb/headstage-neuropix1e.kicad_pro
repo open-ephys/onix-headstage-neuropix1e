@@ -60,19 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_issues|144665911|113431246|9ecbc746-2dfd-4bb4-967d-ae8298ea5223|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|147095000|89384162|2f531e38-9cb6-44f7-8914-db17cb5beda8|fc219fcb-68a3-4042-9129-1e74c4ac1986",
           ""
         ],
         [
-          "lib_footprint_issues|146777143|87560000|97dc9e0b-8aec-43d5-a330-b9ef372f445b|00000000-0000-0000-0000-000000000000",
+          "starved_thermal|139649101|92603899|18424e33-801a-4fcf-b3a3-3d1758cdbbfd|c36ead6c-ea41-45d0-af20-90a322068bfe|F.Cu",
           ""
         ],
         [
-          "starved_thermal|138850000|97962500|18424e33-801a-4fcf-b3a3-3d1758cdbbfd|15f7ec27-4320-42ea-937e-5ee427813d9b|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|139650000|91930000|18424e33-801a-4fcf-b3a3-3d1758cdbbfd|c36ead6c-ea41-45d0-af20-90a322068bfe|F.Cu",
+          "starved_thermal|142200000|92546500|18424e33-801a-4fcf-b3a3-3d1758cdbbfd|7be5c8de-3591-4f58-af80-537bb6a4ed7e|B.Cu",
           ""
         ]
       ],
@@ -622,8 +618,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "manufacturing/gerber/",
+      "pos_files": "manufacturing/assembly/",
       "specctra_dsn": "",
       "step": "headstage-neuropix2e.step",
       "svg": "",
@@ -683,12 +679,102 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CASE/PACKAGE",
+          "name": "CASE/PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF PINS",
+          "name": "NUMBER OF PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OCTOPART URL",
+          "name": "OCTOPART URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OEPS Description",
+          "name": "OEPS Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OEPS PN",
+          "name": "OEPS PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGING",
+          "name": "PACKAGING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROHS",
+          "name": "ROHS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TempCo",
+          "name": "TempCo",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "test",
+          "name": "test",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

@@ -7,118 +7,11 @@
 	(title_block
 		(title "ONIX Neuropixels 1.0 Economical Headstage")
 		(date "2021-12-16")
-		(rev "B")
+		(rev "C")
 		(company "Open Ephys, Inc")
 		(comment 1 "Jonathan P. Newman")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2128,12 +2021,6 @@
 		(uuid "538b643d-242c-40c8-b1ec-1c637df1682c")
 	)
 	(junction
-		(at 107.95 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "689ede1a-d039-4268-afd4-34f46057b84f")
-	)
-	(junction
 		(at 166.37 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2182,12 +2069,6 @@
 		(uuid "966ee9ec-860e-45bb-af89-30bda72b2032")
 	)
 	(junction
-		(at 107.95 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99776fb2-f204-4d5b-8d0f-0cffdd8cfdc4")
-	)
-	(junction
 		(at 101.6 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2224,22 +2105,10 @@
 		(uuid "cc6fb829-c0a5-4b90-89c5-5a186de99677")
 	)
 	(junction
-		(at 91.44 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da347805-79e7-42bc-9169-1d6e6f30d0c8")
-	)
-	(junction
 		(at 219.71 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6c59312-3db5-49fe-a837-f39be5065e45")
-	)
-	(junction
-		(at 91.44 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efed5818-7196-43f6-b51f-837575be1438")
 	)
 	(wire
 		(pts
@@ -2253,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 130.81) (xy 101.6 130.81)
+			(xy 101.6 130.81) (xy 118.11 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2493,16 +2362,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 130.81) (xy 107.95 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d6707a8-f93d-4c17-a57e-5c13d1d130a3")
-	)
-	(wire
-		(pts
 			(xy 139.7 83.82) (xy 139.7 81.28)
 		)
 		(stroke
@@ -2523,16 +2382,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 118.11 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3247e3a0-1d23-45d4-9adb-7cbfe40ed8c9")
-	)
-	(wire
-		(pts
 			(xy 138.43 135.89) (xy 143.51 135.89)
 		)
 		(stroke
@@ -2540,16 +2389,6 @@
 			(type default)
 		)
 		(uuid "331efb77-b085-4801-a572-5527ee19b51d")
-	)
-	(wire
-		(pts
-			(xy 91.44 83.82) (xy 91.44 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "371bc13b-d287-47e7-9e32-394c92409f7c")
 	)
 	(wire
 		(pts
@@ -2653,23 +2492,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 135.89) (xy 85.09 135.89)
+			(xy 85.09 135.89) (xy 118.11 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "561f78b1-7564-4451-a6fa-f0811112f9b0")
-	)
-	(wire
-		(pts
-			(xy 107.95 128.27) (xy 107.95 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64c19522-b8c2-41b3-8375-337fdae332df")
 	)
 	(wire
 		(pts
@@ -2713,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 81.28) (xy 107.95 81.28)
+			(xy 101.6 81.28) (xy 118.11 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2740,16 +2569,6 @@
 			(type default)
 		)
 		(uuid "814ee1be-cc46-4b7d-9213-18fbc4aee9b9")
-	)
-	(wire
-		(pts
-			(xy 107.95 78.74) (xy 107.95 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81aaef62-ec20-4250-8480-15878f0110cd")
 	)
 	(wire
 		(pts
@@ -2803,16 +2622,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 81.28) (xy 118.11 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "866ff552-05a7-45f3-9bec-4860db932939")
-	)
-	(wire
-		(pts
 			(xy 101.6 76.2) (xy 101.6 81.28)
 		)
 		(stroke
@@ -2833,16 +2642,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 135.89) (xy 91.44 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c3a5889-9a01-4a15-8b05-21991bbce221")
-	)
-	(wire
-		(pts
 			(xy 194.31 127) (xy 194.31 128.27)
 		)
 		(stroke
@@ -2850,16 +2649,6 @@
 			(type default)
 		)
 		(uuid "9220b2aa-3eb3-47c4-96f6-97b20e716b4b")
-	)
-	(wire
-		(pts
-			(xy 91.44 133.35) (xy 91.44 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94712764-840d-447d-b539-42d2e92a24c4")
 	)
 	(wire
 		(pts
@@ -2883,7 +2672,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 86.36) (xy 91.44 86.36)
+			(xy 85.09 86.36) (xy 118.11 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3687,113 +3476,6 @@
 			(project "headstage-neuropix1e"
 				(path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/b7aa19e4-f36e-4b9e-8aee-8753f961a546"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 91.44 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "21cf0835-db22-492a-9f9e-5eb265b83865")
-		(property "Reference" "TP6"
-			(at 92.71 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+1.2VA"
-			(at 92.71 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jonnew:TestPoint_Pad_D0.6mm"
-			(at 96.52 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPS PN" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "test" ""
-			(at 91.44 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0407f9ee-4420-4aff-9751-f34c052958b9")
-		)
-		(instances
-			(project "headstage-neuropix1e"
-				(path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/b7aa19e4-f36e-4b9e-8aee-8753f961a546"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-			(project "headstage-rhs2116"
-				(path "/e2fad42d-0e66-491f-a493-0ddc5f20365f/f805e42a-7731-4c63-aab8-b693117b73f1"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -4849,113 +4531,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 107.95 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c062e89-d3c9-4ad0-b71f-277c36374b9d")
-		(property "Reference" "TP5"
-			(at 109.22 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+1.8VA"
-			(at 109.22 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jonnew:TestPoint_Pad_D0.6mm"
-			(at 113.03 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPS PN" ""
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "test" ""
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ae82b58-1d18-4400-8aa8-02b34a048ebd")
-		)
-		(instances
-			(project "headstage-neuropix1e"
-				(path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/b7aa19e4-f36e-4b9e-8aee-8753f961a546"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-			(project "headstage-rhs2116"
-				(path "/e2fad42d-0e66-491f-a493-0ddc5f20365f/f805e42a-7731-4c63-aab8-b693117b73f1"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 181.61 49.53 0)
 		(unit 1)
@@ -5331,7 +4906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oe_common:ANALOG_CB-6-2_BGA-6_2x3_1.0x1.45mm"
+		(property "Footprint" "open-ephys:ANALOG_CB-6-2_BGA-6_2x3_1.0x1.45mm"
 			(at 128.27 127 0)
 			(effects
 				(font
@@ -5715,7 +5290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oe_common:ANALOG_CB-6-2_BGA-6_2x3_1.0x1.45mm"
+		(property "Footprint" "open-ephys:ANALOG_CB-6-2_BGA-6_2x3_1.0x1.45mm"
 			(at 128.27 83.82 0)
 			(effects
 				(font
@@ -7097,113 +6672,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 91.44 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef4d0de3-31d7-4144-8bc6-b40f30a4099e")
-		(property "Reference" "TP4"
-			(at 92.71 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+1.2V"
-			(at 92.71 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jonnew:TestPoint_Pad_D0.6mm"
-			(at 96.52 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 91.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 91.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPS PN" ""
-			(at 91.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 91.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "test" ""
-			(at 91.44 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1fae66b-ec6a-4d84-a369-ee4c248ad30e")
-		)
-		(instances
-			(project "headstage-neuropix1e"
-				(path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/b7aa19e4-f36e-4b9e-8aee-8753f961a546"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-			(project "headstage-rhs2116"
-				(path "/e2fad42d-0e66-491f-a493-0ddc5f20365f/f805e42a-7731-4c63-aab8-b693117b73f1"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 222.25 50.8 90)
 		(unit 1)
@@ -7657,113 +7125,6 @@
 			(project "headstage-neuropix1e"
 				(path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/b7aa19e4-f36e-4b9e-8aee-8753f961a546"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 107.95 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb900813-eb00-49f5-9c55-776d14158dae")
-		(property "Reference" "TP3"
-			(at 109.22 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "+1.8V"
-			(at 109.22 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "jonnew:TestPoint_Pad_D0.6mm"
-			(at 113.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 107.95 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPS PN" ""
-			(at 107.95 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 107.95 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "test" ""
-			(at 107.95 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "703ec9af-0842-4fda-a592-f4360710225d")
-		)
-		(instances
-			(project "headstage-neuropix1e"
-				(path "/8b149c2d-f56a-45f8-a6f1-7a24c86142b6/b7aa19e4-f36e-4b9e-8aee-8753f961a546"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-			(project "headstage-rhs2116"
-				(path "/e2fad42d-0e66-491f-a493-0ddc5f20365f/f805e42a-7731-4c63-aab8-b693117b73f1"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
